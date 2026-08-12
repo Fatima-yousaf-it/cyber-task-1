@@ -211,7 +211,8 @@ The virtual cybersecurity lab environment has been configured and tested accordi
 **Fatima Yousaf**
 
 Cybersecurity & IT Student
-Interested in Cybersecurity, Ethical Hacking, Networking, and SEO
+Cybersecurity B082 
+Interested in Cybersecurity, Ethical Hacking, Networking
 
 ---
 
