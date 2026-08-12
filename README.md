@@ -63,7 +63,7 @@ A custom NAT Network was created in VirtualBox using the:
 ```
 
 network.
-<img width="765" height="695" alt="image" src="https://github.com/user-attachments/assets/1d158be0-a2cd-42ff-b0d9-14b0c3c4aee9" />
+<img width="1278" height="677" alt="image" src="https://github.com/user-attachments/assets/f0dea710-cff7-43ba-af69-505fc3141fbb" />
 
 
 ### Step 4: Install Kali Linux
@@ -73,6 +73,8 @@ The Kali Linux virtual machine was downloaded and imported into VirtualBox.
 ### Step 5: Configure Kali Linux Networking
 
 Kali Linux was configured to communicate with the other virtual machines through the custom NAT Network.
+<img width="765" height="695" alt="image" src="https://github.com/user-attachments/assets/1d158be0-a2cd-42ff-b0d9-14b0c3c4aee9" />
+
 <img width="839" height="504" alt="image" src="https://github.com/user-attachments/assets/71b89bba-408f-4a73-8e00-ae011433dc3a" />
 
 
