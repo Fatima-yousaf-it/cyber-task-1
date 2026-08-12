@@ -50,6 +50,7 @@ The lab guide specifies a custom NAT Network for the virtual machines and provid
 ### Step 2: Install VirtualBox
 
 Oracle VirtualBox was installed as the virtualization platform for creating and managing the cybersecurity lab machines.
+<img width="1913" height="462" alt="image" src="https://github.com/user-attachments/assets/da407512-9293-4318-b1e9-70716cebe20a" />
 
 
 
@@ -62,6 +63,8 @@ A custom NAT Network was created in VirtualBox using the:
 ```
 
 network.
+<img width="765" height="695" alt="image" src="https://github.com/user-attachments/assets/1d158be0-a2cd-42ff-b0d9-14b0c3c4aee9" />
+
 
 ### Step 4: Install Kali Linux
 
@@ -70,28 +73,14 @@ The Kali Linux virtual machine was downloaded and imported into VirtualBox.
 ### Step 5: Configure Kali Linux Networking
 
 Kali Linux was configured to communicate with the other virtual machines through the custom NAT Network.
+<img width="839" height="504" alt="image" src="https://github.com/user-attachments/assets/71b89bba-408f-4a73-8e00-ae011433dc3a" />
+
 
 ### Step 6: Create VM Snapshot
 
 A snapshot of the configured Kali Linux VM was created to provide a restore point before performing security experiments.
 
 The official lab workflow lists these six tasks as Phase 1.
-
-## Phase 2 – Target Machines Setup
-
-The second phase involved setting up additional virtual machines that can be used as targets for cybersecurity and penetration-testing exercises.
-
-The configured environment included:
-
-* Windows VM
-* Additional Windows versions where required
-* Android VM (optional)
-
-After configuring the machines, connectivity was tested between the virtual machines using ping tests.
-
-Snapshots were also created for the configured machines so that the environment could be restored after experiments.
-
-The lab guide specifies installing Windows/Android virtual machines, performing connectivity tests between machines, and taking snapshots.
 
 ## Network Topology
 
@@ -134,7 +123,7 @@ These addresses are examples from the lab guide; the actual addresses used in my
 During the setup, the lab documentation provides a troubleshooting command for Internet connectivity issues with Kali Linux 2026.1 or later:
 
 ```bash
-sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
+sudo nmcli connection modify "eth0" ipv4.dad-timeout 0
 ```
 
 The guide also notes using `10.0.0.1` in certain situations if Internet connectivity causes issues.
@@ -153,6 +142,8 @@ Recommended snapshot points include:
 * Target machine configured
 * Pre-exploitation state
 
+<img width="1234" height="570" alt="image" src="https://github.com/user-attachments/assets/a36c7557-a554-4489-bb22-1a833fb056cf" />
+
 ## Connectivity Testing
 
 Connectivity between the virtual machines was tested using ICMP ping.
@@ -164,6 +155,10 @@ ping 10.0.0.X
 ```
 
 Successful responses confirm that the virtual machines can communicate over the configured virtual network.
+<img width="1693" height="987" alt="image" src="https://github.com/user-attachments/assets/4da7dfd7-a181-4e02-a63a-4f3042ec98af" />
+
+
+
 
 ## Skills Demonstrated
 
